@@ -1,0 +1,11 @@
+{
+ "type": "postgres",
+ "database": "ecommercedb",
+ "password": "november29",
+ "host": "localhost",
+ "port": "5432",
+ "username": "postgres",
+ "logging": true,
+ "synchronize": true,
+ "entities": ["./src/**/*.entity.ts", "./dis/**/*.entity.js"]
+}
